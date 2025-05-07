@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./product-page.css">
+</head>
+<body>
+    
+    <section class="product-details">
+        <h1>Travel Package Details</h1>
+        <div id="card-container"></div>
+        <p class="id"></p>
+    </section>
+
+
+    <script>
+
+        const id = new URLSearchParams(window.location.search).get('id');
+            const cardContainer = document.getElementById('card-container');
+            const productId = document.querySelector('.id');
+        
+            fetch('card.json')
+                .then(response => response.json())
+                .then(data => {
+                    const item = data.find(card => card.id === id);
+        
+                    if (item) {
+                        productId.innerText = item.id;
+        
+                        cardContainer.innerHTML = `
+                            <div class="card-detail">
+                                <img src="${item.image}">
+                                <h2>${item.title}</h2>
+                                <p>${item.paragraph}</p>
+                                <p><strong>${item.price}</strong></p>
+                            </div>
+                        `;
+                    } else {
+                        cardContainer.innerHTML = '<p>Package not found.</p>';
+                    }
+                });
+        
+        
+        
+        
+        </script>
+
+
+
+
+
+</body>
+</html>
+
+
+<!-- <script>
+
+const id = new URLSearchParams(window.location.search).get('id');
+    const cardContainer = document.getElementById('card-container');
+    const productId = document.querySelector('.id');
+
+    fetch('card.json')
+        .then(response => response.json())
+        .then(data => {
+            const item = data.find(card => card.id === id);
+
+            if (item) {
+                productId.innerText = item.id;
+
+                cardContainer.innerHTML = `
+                    <div class="card-detail">
+                        <img src="${item.image}">
+                        <h2>${item.title}</h2>
+                        <p>${item.paragraph}</p>
+                        <p><strong>${item.price}</strong></p>
+                    </div>
+                `;
+            } else {
+                cardContainer.innerHTML = '<p>Package not found.</p>';
+            }
+        });
+
+
+
+
+</script> -->

@@ -1,0 +1,89 @@
+[
+    {
+        "id":"1",
+        "image":"images/image-Italia.webp",
+        "title":"Italy",
+        "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, debitis, ut doloremque, neque repudiandae non quia cumque doloribus inventore architecto animi et praesentium? Incidunt esse illo omnis consequuntur ipsam?",
+        "price":"Price 900$"
+    },
+    {
+        "id":"2",
+        "image":"images/image-Spain.jpg",
+        "title":"Spain",
+        "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, debitis, ut doloremque, neque repudiandae non quia cumque doloribus inventore architecto animi et praesentium? Incidunt esse illo omnis consequuntur ipsam?",
+        "price":"Price 800$"
+    },
+    {
+        "id":"3",
+        "image":"images/image-France.jpg",
+        "title":"France",
+        "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, debitis, ut doloremque, neque repudiandae non quia cumque doloribus inventore architecto animi et praesentium? Incidunt esse illo omnis consequuntur ipsam?",
+        "price":"Price 700$"
+    },
+    {
+        "id":"4",
+        "image":"images/image-greece1.jpg",
+        "title":"Greece",
+        "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, debitis, ut doloremque, neque repudiandae non quia cumque doloribus inventore architecto animi et praesentium? Incidunt esse illo omnis consequuntur ipsam?",
+        "price":"Price 600$"
+    },
+    {
+        "id":"5",
+        "image":"images/image-Italia.webp",
+        "title":"Ita",
+        "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, debitis, ut doloremque, neque repudiandae non quia cumque doloribus inventore architecto animi et praesentium? Incidunt esse illo omnis consequuntur ipsam?",
+        "price":"Price 900$"
+    },
+    {
+        "id":"6",
+        "image":"images/image-Spain.jpg",
+        "title":"Spain",
+        "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, debitis, ut doloremque, neque repudiandae non quia cumque doloribus inventore architecto animi et praesentium? Incidunt esse illo omnis consequuntur ipsam?",
+        "price":"Price 800$"
+    },
+    {
+        "id":"7",
+        "image":"images/image-France.jpg",
+        "title":"France",
+        "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, debitis, ut doloremque, neque repudiandae non quia cumque doloribus inventore architecto animi et praesentium? Incidunt esse illo omnis consequuntur ipsam?",
+        "price":"Price 700$"
+    },
+    {
+        "id":"8",
+        "image":"images/image-greece1.jpg",
+        "title":"Greece",
+        "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, debitis, ut doloremque, neque repudiandae non quia cumque doloribus inventore architecto animi et praesentium? Incidunt esse illo omnis consequuntur ipsam?",
+        "price":"Price 600$"
+    },
+    {
+        "id":"9",
+        "image":"images/image-Italia.webp",
+        "title":"It",
+        "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, debitis, ut doloremque, neque repudiandae non quia cumque doloribus inventore architecto animi et praesentium? Incidunt esse illo omnis consequuntur ipsam?",
+        "price":"Price 900$"
+    },
+    {
+        "id":"10",
+        "image":"images/image-Spain.jpg",
+        "title":"Spain",
+        "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, debitis, ut doloremque, neque repudiandae non quia cumque doloribus inventore architecto animi et praesentium? Incidunt esse illo omnis consequuntur ipsam?",
+        "price":"Price 800$"
+    },
+    {
+        "id":"11",
+        "image":"images/image-France.jpg",
+        "title":"France",
+        "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, debitis, ut doloremque, neque repudiandae non quia cumque doloribus inventore architecto animi et praesentium? Incidunt esse illo omnis consequuntur ipsam?",
+        "price":"Price 700$"
+    },
+    {
+        "id":"12",
+        "image":"images/image-greece1.jpg",
+        "title":"Greece",
+        "paragraph":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, debitis, ut doloremque, neque repudiandae non quia cumque doloribus inventore architecto animi et praesentium? Incidunt esse illo omnis consequuntur ipsam?",
+        "price":"Price 600$"
+    }
+    
+
+]
+

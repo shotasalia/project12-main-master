@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./myprofile.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="top">
+            <div class="contact-info"><i class="fa-solid fa-phone"></i> <a href="tel:+995555555555">(995) 555 555 555</a></div>
+            <div class="options">
+                <span><a href="./myprofile.html">MY PROFILE</a></span>
+                <button class="logout" onclick="location.href='authorization.html'">LOG OUT</button>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="logo"><i onclick="location.href='index.html'" class="fa-solid fa-plane"></i></div>
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="#">TOURS</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+                <li><a href="./about.html">ABOUT US</a></li>
+                
+            </ul>
+            <div>
+            <input id="searchBox" placeholder="Searching...">
+                <button onclick="search()"><i class="fa-solid fa-magnifying-glass"></i> </button>
+            </div>
+            </nav>
+    </header>
+    
+<!-- ========================================================================= -->
+
+
+    <section class="information">
+        <form class="mainInfo">
+          <div class="container">
+            <div class="mainSection">
+
+
+                  <div class="profile-pic">
+                    <img src="./images/blank-profile-picture-973460_1280.webp" alt="Profile Picture" id="profileImage">
+                    <input type="file" id="uploadImage" accept="image/*" hidden>
+                    <button type="button" onclick="document.getElementById('uploadImage').click();">Upload Photo</button>
+                  </div>
+
+              <div class="input">
+                <h2>MY PROFILE</h2>
+                <div class="abc">
+        <input type="text" id="FirstName" placeholder="FirstName">
+        <input type="text" id="LastName" placeholder="LastName">
+        </div>
+        <div class="def">
+        <input type="text" id="Phone" placeholder="Phone">
+        <input type="text" id="Email" placeholder="Email">
+        </div>
+        
+        
+        </div>
+        </div>
+        
+        <button id="saveBtn">Save</button>
+       
+        <div class="change">
+          <button type="button"id="changeBtn">Change</button>
+        </div>
+        </div>
+        
+        </form>
+        
+        </section>
+
+        <script src="./myprofile.js"></script>
+          
+</body>
+</html>
