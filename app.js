@@ -40,6 +40,10 @@
 let page = 1;
 const perPage = 4;
 let allCards = [];
+function getPageNumber(page) {
+    paginate(allCards, page);
+}
+
 
 const createCard = (dataFunc) => {
     let container = document.getElementById("card-container");
@@ -63,9 +67,12 @@ function viewPackage(packageId) {
     window.location.href = `product-page.html?id=${packageId}`;
 }
 
-function paginate(data) {
+function paginate(data, page) {
+    page = page || window.location.search.split('page=')[1] || 1;
     const start = (page - 1) * perPage;
     const end = start + perPage;
+    const addPageUrl = `?page=${page}`;
+    window.history.pushState({}, '', addPageUrl);
     createCard(data.slice(start, end));
 }
 
